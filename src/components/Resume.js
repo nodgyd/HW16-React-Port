@@ -70,14 +70,14 @@ export default function Resume( {resumeData} ) {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				
 
-   				   <ul className="skills">
+   				   <ul>
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      <span className={`${item.skillname.toLowerCase()}`}>
                       </span><em>{item.skillname}</em>
                       </li>
                     )
@@ -86,7 +86,7 @@ export default function Resume( {resumeData} ) {
 
    					</ul>
 
-   				</div>
+   				
 
    			</div>
 

@@ -12,7 +12,7 @@ export default function Portfolio( {resumeData} ) {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="https://github.com/nodgyd/HW8-Team-Profile-Generator">
+                    <a href={item.gitURL}>
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
