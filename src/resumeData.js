@@ -78,19 +78,19 @@ let resumeData = {
       {
         "name":"project2",
         "description":"grubnub",
-        "imgurl":"images/portfolio/console.jpg",
+        "imgurl":"images/portfolio/retrocam.jpg",
         "gitURL": "https://github.com/nodgyd/GrubNub"
       },
       {
         "name":"project3",
         "description":"crypto champs",  
-        "imgurl":"images/portfolio/project2.png",
+        "imgurl":"images/portfolio/origami.jpg",
         "gitURL": "https://github.com/nodgyd/CryptoChamps"
       },
       {
         "name":"project4",
         "description":"team profile generator",
-        "imgurl":"images/portfolio/phone.jpg",
+        "imgurl":"images/portfolio/into-the-light.jpg",
         "gitURL": "https://github.com/nodgyd/HW8-Team-Profile-Generator"
       }
     ]
