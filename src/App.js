@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from '../src/resumeData';
+import "./index.css"
 
 function App() {
     return (
@@ -18,7 +19,6 @@ function App() {
         <Footer resumeData={resumeData}/>
       </div>
     );
-  
 }
 
 export default App;

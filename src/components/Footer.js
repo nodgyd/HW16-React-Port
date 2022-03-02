@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Footer( {resumeData: resumeData} ) {
+export default function Footer( {resumeData} ) {
     return (
       <footer>
       <div className="row">
@@ -8,9 +8,9 @@ export default function Footer( {resumeData: resumeData} ) {
             {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
-                  <li>
-                    <a target="_blank" href={item.url}>
-                    <i target="_blank" className={item.className} />
+                  <li key={item.className}>
+                    <a target="_blank" href={item.url}  rel="noopener noreferrer">
+                    <i className={item.className} />
                     </a>
                   </li>
                 )

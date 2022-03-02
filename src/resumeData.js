@@ -20,12 +20,14 @@ let resumeData = {
     "website":"https://github.com/nodgyd",
     "education":[
       {
+        "id": 1,
         "UniversityName":"University of California, Riverside",
         "specialization":"B.S., Business Administration",
         "MonthOfPassing":"Jun",
         "YearOfPassing":"2019",
       },
       {
+        "id": 2,
         "UniversityName":"UCI Continued Education",
         "specialization":"The Coding Bootcamp Certificate",
         "MonthOfPassing":"Mar",
@@ -34,6 +36,7 @@ let resumeData = {
     ],
     "work":[
       {
+        "id": 1,
         "CompanyName":"New American Funding",
         "specialization":"Corporate Business Analyst",
         "MonthOfLeaving":"Current",
@@ -41,6 +44,7 @@ let resumeData = {
         "Achievements":"NAF 360 Champion"
       },
       {
+        "id": 2,
         "CompanyName":"New American Funding",
         "specialization":"Assistant Project Manager",
         "MonthOfLeaving":"Dec",
@@ -50,21 +54,27 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
+        "id": 1,
         "skillname":"HTML5"
       },
       {
+        "id": 2,
         "skillname":"CSS"
       },
       {
+        "id": 3,
         "skillname":"Node.js"
       },
       {
+        "id": 4,
         "skillname":"Reactjs"
       },
       {
+        "id": 5,
         "skillname":"SQL"
       },
       {
+        "id": 6,
         "skillname":"MongoDB"
       }
     ],

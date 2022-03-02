@@ -10,10 +10,10 @@ export default function Portfolio( {resumeData} ) {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div key={item.gitURL} className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href={item.gitURL}>
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img src={`${item.img}`} className="item-img" alt="portfolio"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           

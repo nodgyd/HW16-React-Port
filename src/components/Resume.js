@@ -13,7 +13,7 @@ export default function Resume( {resumeData} ) {
               {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
-                    <div className="row item">
+                    <div key={item.id} className="row item">
                        <div className="twelve columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
@@ -33,12 +33,11 @@ export default function Resume( {resumeData} ) {
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
             </div>
-
             <div className="nine columns main-col">
               {
                 resumeData.work && resumeData.work.map((item) => {
                   return(
-                    <div className="row item">
+                    <div key={item.id} className="row item">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
@@ -76,7 +75,7 @@ export default function Resume( {resumeData} ) {
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
-                      <li>
+                      <li key={item.id}>
                       <span className={`${item.skillname.toLowerCase()}`}>
                       </span><em>{item.skillname}</em>
                       </li>
